@@ -1,3 +1,4 @@
+import pytest
 from calculator.calculcator import add, div, subtract, modulo, multiply
 
 
@@ -22,4 +23,5 @@ def test_multiply():
 
 
 def test_biv_by_zero():
-    assert div(4, 0) == 0
+    with pytest.raises(ZeroDivisionError):
+        assert div(4, 0)
