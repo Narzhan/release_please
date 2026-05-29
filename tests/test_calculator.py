@@ -1,4 +1,4 @@
-from calculator.calculcator import add, div, subtract, modulo
+from calculator.calculcator import add, div, subtract, modulo, multiply
 
 
 def test_sum():
@@ -15,3 +15,7 @@ def test_sub():
 
 def test_mod():
     assert modulo(4, 2) == 0
+
+
+def test_multiply():
+    assert multiply(2, 2) == 4
