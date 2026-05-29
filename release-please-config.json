@@ -2,7 +2,7 @@
   "release-type": "python",
   "packages": {
     ".": {
-      "package-name": "your-package",
+      "package-name": "calculator",
       "changelog-sections": [
         { "type": "feat", "section": "Features" },
         { "type": "fix", "section": "Bug Fixes" },
