@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.0](https://github.com/Narzhan/release_please/compare/calculator-0.2.1...calculator-0.3.0) (2026-05-29)
+
+
+### Added
+
+* power of some number capabilities ([#12](https://github.com/Narzhan/release_please/issues/12)) ([9598b24](https://github.com/Narzhan/release_please/commit/9598b240ec3a475ec53267a1be0edbfafe64a5b0))
+
+
+### Fixed
+
+* pointless change of raising Zerodivision ([2ede8b8](https://github.com/Narzhan/release_please/commit/2ede8b80049ecd8fcddfe2d61972038ff4fbd0d9))
+
 ## [0.2.1](https://github.com/Narzhan/release_please/compare/calculator-0.2.0...calculator-0.2.1) (2026-05-29)
 
 
