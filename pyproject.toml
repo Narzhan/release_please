@@ -1,6 +1,6 @@
 [project]
 name = "calculator"
-version = "0.2.0"
+version = "0.2.1"
 description = "it is a fucking calculator"
 authors = [
     {name = "Narzhan",email = "vasek.bruzek@gmail.com"}

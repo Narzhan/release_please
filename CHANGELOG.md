@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.1](https://github.com/Narzhan/release_please/compare/calculator-0.2.0...calculator-0.2.1) (2026-05-29)
+
+
+### Bug Fixes
+
+* division by zero now returns incorrect result because of utter laziness ([#9](https://github.com/Narzhan/release_please/issues/9)) ([47c3272](https://github.com/Narzhan/release_please/commit/47c32725c10805ccd7fb66f78f63175e750766df))
+
 ## [0.2.0](https://github.com/Narzhan/release_please/compare/calculator-0.1.0...calculator-0.2.0) (2026-05-29)
 
 
