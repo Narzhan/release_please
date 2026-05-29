@@ -3,6 +3,8 @@ def add(a: int, b: int) -> int:
 
 
 def div(a: int, b: int) -> float:
+    if b == 0:
+        return 0
     return a / b
 
 

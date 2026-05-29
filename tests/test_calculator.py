@@ -19,3 +19,7 @@ def test_mod():
 
 def test_multiply():
     assert multiply(2, 2) == 4
+
+
+def test_biv_by_zero():
+    assert div(4, 0) == 0
