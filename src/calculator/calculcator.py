@@ -8,3 +8,7 @@ def div(a: int, b: int) -> float:
 
 def subtract(a: int, b: int) -> int:
     return a - b
+
+
+def modulo(a: int, b: int) -> int:
+    return a % b
