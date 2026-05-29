@@ -1,4 +1,4 @@
-from calculcator import add
+from calculator.calculcator import add
 
 
 def test_sum():
