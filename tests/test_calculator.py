@@ -1,5 +1,5 @@
 import pytest
-from calculator.calculcator import add, div, subtract, modulo, multiply
+from calculator.calculcator import add, div, subtract, modulo, multiply, power
 
 
 def test_sum():
@@ -25,3 +25,7 @@ def test_multiply():
 def test_biv_by_zero():
     with pytest.raises(ZeroDivisionError):
         assert div(4, 0)
+
+
+def test_power():
+    assert power(2, 2) == 4
