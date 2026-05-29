@@ -1,0 +1,22 @@
+[project]
+name = "calculator"
+version = "0.0.1"
+description = "it is a fucking calculator"
+authors = [
+    {name = "Narzhan",email = "vasek.bruzek@gmail.com"}
+]
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "pytest (>=9.0.3,<10.0.0)"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest (>=9.0.2,<10.0.0)",
+]
+dev = [
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
